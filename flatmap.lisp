@@ -64,6 +64,6 @@
     (myMap f (myFlatten l))
 )
 
-(setf check (list (list 1 (list 2 3 4) 3) (list 4 5 6)))
+(setf check (list (list 1 2 3) (list 4 5 6)))
 (setf func1 (lambda (a) (* a 1)))
 (write (flatMap check func1)) 
